@@ -8,6 +8,14 @@ header {
 }
 
 
+/* Body website */
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+
 /* biar footer jadi seperti watermark */
 
 footer {
@@ -15,4 +23,22 @@ footer {
     color: white;
     padding: 10px;
     text-align: center;
+}
+
+
+/* judul web */
+
+.judul {
+    color: red;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+
+/* Desain tabel */
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
 }
