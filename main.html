@@ -2,8 +2,12 @@
 <html>
     <head>
         <title>All About Rehan</title>
-        <script type="text/javascript">
-            alert("Selamat datang di profil Rehan!!");
+        <script>
+            var motivasi = ["Jangan lupa tersenyum :)", "Semangat selalu!!", "Kelak kamu pasti menjadi orang sukses", "Jaga kesehatanmu ya", "Jangan patah semangat!", "Biarpun masalahmu besar, kamu punya Tuhan yang lebih besar"];
+            const motivasiTerpilih = motivasi[Math.floor(Math.random() * motivasi.length)];
+            function termotivasi(){
+                alert(motivasiTerpilih);
+            }
         </script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css">
@@ -72,8 +76,19 @@
                 </tr>
             </tbody>
         </table></center>
+        <center><h1 class="judul">Tekan disini untuk mendapatkan motivasi secara acak</h1></center>
+        <center>
+            <button onclick="termotivasi()">
+                Klik disini
+            </button>
+        </center>
+        <center><h1 class="judul">Belum menonton Tilik? Tonton sekarang!</h1></center>
+        <center>
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/GAyvgz8_zV8">
+            </iframe>
+        </center>
         <footer>
-            Copyright &copy; Rehan Adi Satrya - 13518061
+            Copyright &copy; Rehan Adi Satrya - 13518061 - Institut Teknologi Bandung
         </footer>
     </body>
 </html>

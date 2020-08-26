@@ -42,3 +42,15 @@ footer {
     margin-top: 20px;
     border-collapse: collapse;
 }
+
+
+/* Mempercantik tombol */
+
+button {
+    display: inline-block;
+    max-width: 150px;
+    padding: 15px 30px;
+    color: white;
+    background: red;
+    cursor: pointer;
+}
